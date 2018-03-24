@@ -1,0 +1,4 @@
+/opt/PostgreSQL/9.6/lib/libcrypto.so.1.0.0
+/lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+/opt/PostgreSQL/9.6/lib/libcrypto.so.1.0.0
+/lib/x86_64-linux-gnu/libcrypto.so.1.0.0

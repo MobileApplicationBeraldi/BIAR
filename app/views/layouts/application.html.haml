@@ -1,0 +1,14 @@
+!!! 5
+%html
+  %head
+    %title Rotten Potetoes!
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = csrf_meta_tag #This header is required to let the delete HTTP method to work 
+
+
+  %body
+    #main
+      - if flash[:warning]
+        #warning.message= flash[:warning] 
+      = yield 
